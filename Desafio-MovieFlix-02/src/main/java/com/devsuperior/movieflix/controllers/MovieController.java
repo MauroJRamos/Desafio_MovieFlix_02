@@ -19,7 +19,7 @@ import com.devsuperior.movieflix.services.MovieService;
 
 @RestController
 @RequestMapping(value = "/movies")
-public class MovieResource {
+public class MovieController {
 
 	@Autowired
 	public MovieService service;
