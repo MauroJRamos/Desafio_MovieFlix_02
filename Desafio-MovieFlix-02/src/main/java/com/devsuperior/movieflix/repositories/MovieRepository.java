@@ -20,8 +20,7 @@ public interface MovieRepository extends JpaRepository<Movie, Long> {
 	//		+ "(LOWER(obj.genreid) LIKE LOWER(CONCAT('%',:genreId,'%'))) ")
 	//Page<Genre> find1(List<Movie> movies, Long genreId, Pageable pageable);
 	
-	@Query("   SELECT DISTINCT obj FROM Movie obj "
-			+ " INNER JOIN obj.genre grs "
+	@Query("   SELECT DISTINCT obj FROM Movie obj INNER JOIN obj.genre grs"
 			+ " WHERE ( COALESCE( :genre ) IS NULL OR grs IN :genre ) "
 			+ " ORDER BY obj.title")
 	Page<Movie> findMoviesByGenre(List<Genre> genre, Pageable pageable);
