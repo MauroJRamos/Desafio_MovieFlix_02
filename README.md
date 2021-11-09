@@ -21,3 +21,6 @@ O desafio solicita a implementação dos seguinte requisitos listados abaixo:
 
 4 - Exceção, texto vazio.
 4.1 - O sistema apresenta uma mensagem de que não é permitido texto vazio no cadastro da avaliação. 
+
+![image](https://user-images.githubusercontent.com/82981926/140934939-16ba4af8-ad4e-481b-b68d-4db3c827d346.png)
+
