@@ -4,13 +4,11 @@ Concluído a entrega do desafio do capítulo 05, foi utilizado o Spring Data JPA
 
 O desafio solicita a implementação dos seguinte requisitos listados abaixo:
 
-1 - Efetuar login.
-
-1.1 - [IN] O usuário anônimo informa seu email e senha.
+1 - Efetuar login.<br />
+1.1 - [IN] O usuário anônimo informa seu email e senha.<br />
 1.2 - [OUT] O sistema informa um token válido.
 
 2 - Listar filmes.
-
 2.1 - [OUT] O sistema apresenta uma listagem dos nomes de todos gêneros, bem como uma listagem paginada com título, subtítulo, ano e imagem dos filmes, ordenada alfabeticamente por título.
 2.2 - [IN] O usuário visitante ou membro seleciona, opcionalmente, um gênero.
 2.3 - [OUT] O sistema apresenta a listagem atualizada, restringindo somente ao gênero selecionado.
